@@ -1,6 +1,6 @@
 // Copyright 2021 NNTU-CS
-#include <string>
 #include <math.h>
+#include <string>
 #include <map>
 #include "tstack.h"
 
@@ -79,7 +79,7 @@ std::string infx2pstfx(std::string inf) {
 }
 
 int eval(std::string pref) {
- std::string fake;
+  std::string fake;
   int num1 = 0, num2 = 0;
   TStack<int, 100> stack;
   for (int i = 0; pref[i]; i++) {
